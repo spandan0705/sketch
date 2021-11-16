@@ -1,0 +1,35 @@
+body{
+    background-color:  teal;
+
+}
+
+h1{
+    color: snow;
+    background-color: cyan;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+#show_sketch{
+    float: right;
+}
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+canvas{
+    border: 10px solid greenyellow;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    margin-top: 150px;
+}
+
+@keyframes example{
+    from{box-shadow: 3px 3px 38px rgb(189, 186, 17);}
+
+    to{box-shadow: 3px 3px 38px greenyellow;}
+}
